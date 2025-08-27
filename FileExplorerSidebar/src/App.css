@@ -1,0 +1,31 @@
+#root {
+  margin: 2rem;
+}
+
+.container {
+  text-align: left;
+  padding: 3px 20px;
+}
+.box{
+  width: max-content;
+  padding: 0 10px;
+  padding-bottom: 2.5px;
+}
+.box:hover{
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.icon{
+  margin:  0 6px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "name": "public",
+        "isFolder": true,
+        "children": [
+            {
+                "id": 2,
+                "name": "assets",
+                "isFolder": true,
+                "children": [
+                    {
+                        "id": 3,
+                        "name": "images",
+                        "isFolder": false
+                    },
+                    {
+                        "id": 4,
+                        "name": "styles",
+                        "isFolder": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "index.html",
+                "isFolder": false
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "src",
+        "isFolder": true,
+        "children": [
+            {
+                "id": 7,
+                "name": "components",
+                "isFolder": true,
+                "children": [
+                    {
+                        "id": 8,
+                        "name": "FileExplorerSidebar.jsx",
+                        "isFolder": false
+                    },
+                    {
+                        "id": 9,
+                        "name": "FileExplorerSidebar.css",
+                        "isFolder": false
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "name": "App.jsx",
+                "isFolder": false
+            },
+            {
+                "id": 11,
+                "name": "index.js",
+                "isFolder": false
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": ".gitignore",
+        "isFolder": false
+    },
+    {
+        "id": 13,
+        "name": "package.json",
+        "isFolder": false
+    },
+    {
+        "id": 14,
+        "name": "vite.config.js",
+        "isFolder": false
+    }
+]

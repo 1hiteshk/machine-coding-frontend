@@ -1,0 +1,52 @@
+#root {
+  width: 100%;
+}
+body {
+  font-family: sans-serif;
+  width: 100%;
+}
+
+.game {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.status {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.board {
+  display: grid;
+
+  justify-content: center;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  font-size: 36px;
+  border: 2px solid grey;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell:hover {
+  background-color: slategray;
+}
+
+.reset-button {
+  padding: 5px 10px;
+}
